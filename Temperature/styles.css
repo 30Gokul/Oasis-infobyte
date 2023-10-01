@@ -1,0 +1,113 @@
+#header{
+    width:100% ;
+    max-height: 100%;
+    background-image: url(gok/1.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+* {
+    margin: 0;
+    max-height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 400px;
+    
+    margin: 0 auto;
+    padding: 20px;
+    background-color: hwb(193 42% 14%);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+}
+
+.radio-group input[type="radio"] {
+    display: none;
+}
+
+.radio-group label {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.radio-group input[type="radio"]:checked + label {
+    background-color: #333;
+    color: #fff;
+}
+
+
+body {
+    background-color:rgb(19, 20, 21);
+    color: #0e0e0c;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+button {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color: #333333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #555;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.converted-temperature {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
